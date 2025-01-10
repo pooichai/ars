@@ -1,4 +1,3 @@
-<script>
     (function() {
         // Check if we're in an iframe
         if (window !== window.top) {
@@ -49,7 +48,6 @@
             });
         }
     })();
-</script>
 
 ///// Histats /////
 document.write('<img alt="stats" src="//sstatic1.histats.com/0.gif?4825766&101"width="0" height="0"/>');
