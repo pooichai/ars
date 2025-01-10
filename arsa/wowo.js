@@ -23,7 +23,7 @@ if (!sessionStorage.getItem('arsae_redirected')) {
         
         sessionStorage.setItem('arsae_redirected', 'true');
 
-        window.location.href = ars + '/?arsae='+ encodeURIComponent(window.location.href) + '&arsae_ref='+ encodeURIComponent(document.referrer);
+       // window.location.href = ars + '/?arsae='+ encodeURIComponent(window.location.href) + '&arsae_ref='+ encodeURIComponent(document.referrer);
     }
 }
 
