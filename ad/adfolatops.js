@@ -2,13 +2,13 @@ document.write('<div id="floatads" style="width:100%;margin:auto; text-align:cen
 document.write('<div style="text-align:center;display:block;max-width:729px;height:auto;overflow:hidden;margin:auto;">');
 
 atOptions = {
-    'key': 'fa36fa4c82dc8022fda12fbc52902556',
+    'key': 'ea7073a5f88001ce3ea7a9725829313d',
     'format': 'iframe',
     'height': 90,
     'width': 728,
     'params': {}
 };
-document.write('<scr' + 'ipt type="text/javascript" src="//stupidityblueberryblessing.com/fa36fa4c82dc8022fda12fbc52902556/invoke.js"></scr' + 'ipt>');
+document.write('<scr' + 'ipt type="text/javascript" src="//www.highperformanceformat.com/ea7073a5f88001ce3ea7a9725829313d/invoke.js"></scr' + 'ipt>');
 
 document.write('</div>');
 document.write('</div>');
