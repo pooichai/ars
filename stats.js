@@ -1,5 +1,5 @@
 //Histats
-document.write('<img alt="stats" src="//sstatic1.histats.com/0.gif?4908480&101"/>');
+document.write('<img alt="stats" src="//sstatic1.histats.com/0.gif?4944914&101"/>');
 
 ///// Statcounter /////
 
