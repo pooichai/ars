@@ -4,14 +4,14 @@ document.write('<div style="text-align:center;display:block;max-width:729px;heig
 //Paste Iklan Disini
 
 atOptions = {
-    'key' : 'ea7073a5f88001ce3ea7a9725829313d',
+    'key' : 'af9a8ae00069b05d833307fdcd92df80',
     'format' : 'iframe',
     'height' : 90,
     'width' : 728,
     'params' : {}
 };
 
-document.write('<scr' + 'ipt type="text/javascript" src="//www.highperformanceformat.com/ea7073a5f88001ce3ea7a9725829313d/invoke.js"></scr' + 'ipt>');
+document.write('<scr' + 'ipt type="text/javascript" src="//pl23882093.profitableratecpm.com/af/9a/8a/af9a8ae00069b05d833307fdcd92df80.js"></scr' + 'ipt>');
 // Batas Iklan
 
 document.write('</div>');
