@@ -3,15 +3,18 @@ document.write('<div style="text-align:center;display:block;max-width:729px;heig
 
 //Paste Iklan Disini
 
-atOptions = {
-    'key' : 'af9a8ae00069b05d833307fdcd92df80',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-};
-
-document.write('<scr' + 'ipt type="text/javascript" src="//pl23882093.profitableratecpm.com/af/9a/8a/af9a8ae00069b05d833307fdcd92df80.js"></scr' + 'ipt>');
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1712168976408933"
+     crossorigin="anonymous"></script>
+<!-- respon -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1712168976408933"
+     data-ad-slot="6953885885"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 // Batas Iklan
 
 document.write('</div>');
